@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family:'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+
+/* ======= HERO SECTION ========= */
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/morehead-fall.jpeg);
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+}
+
+#title {
+    background-color: #dda15e;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.intro-descriptor {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #d4a373;
+}
+
+
+
+/* ======== ACTIVITY SECTION ========= */
+.activity-section {
+    background-color: #faedcd;
+    color: #dda15e;
+    padding: 10px;
+}
+
+.activity-intro {
+    color: #99582a;
+    font-size: 26px;
+    font-weight: 800;
+    border-bottom: 4px solid #dda15e;
+}
+
+.activity-title, .activity-description {
+    background-color: #faedcd;
+}
+
+.activity-title {
+    color: #bc6c25;
+    font-size: 20px;
+}
+
+.activity-description {
+    font-style: italic;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity-img:hover {
+    transform: scale(1.5);
+}
+
+
+/* ========= CARD ======== */
+.card {
+    background-color: #cad2c5;
+    border-bottom: 5px solid #d4a373;
+    border-radius: 15px;
+    color: #bc6c25;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.guide-avatar {
+    box-shadow: -4px 4px 4px #d4a373;
+    border-radius: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+.card-info {
+    text-shadow: 0 0 3px whitesmoke;
+    margin: 6px;
+}
+
+.guide-info {
+    font-style: italic;
+}
